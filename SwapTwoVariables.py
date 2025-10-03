@@ -1,3 +1,4 @@
+#Swap two variables without using a third variable.
 a = int(input("Enter the first variable: "))
 b = int(input("Enter the second variable: "))
 print("The value of a before swapping is : ",a)
