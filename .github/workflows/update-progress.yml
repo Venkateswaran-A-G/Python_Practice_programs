@@ -1,0 +1,35 @@
+name: Update Progress Badge
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count Python files
+        id: count
+        run: |
+          total=70
+          count=$(find . -type f -name "*.py" | wc -l)
+          echo "count=$count" >> $GITHUB_ENV
+
+      - name: Generate badge
+        run: |
+          mkdir -p badges
+          echo "Creating badge for $count / 70 problems"
+          curl -o badges/progress.svg "https://img.shields.io/badge/🚀_Progress-${count}%2F70_Completed-brightgreen?style=for-the-badge"
+    
+      - name: Commit and push badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add badges/progress.svg
+          git commit -m "Update progress badge to ${count}/70" || echo "No changes to commit"
+          git push
