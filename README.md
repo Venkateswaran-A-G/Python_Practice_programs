@@ -17,7 +17,7 @@ Currently solving **1 problem per day**, up to **Day 37 completed**.
 | **Phase 2** | Strings, Loops, Patterns, Prime numbers | ✅ Completed | 🟢 Beginner |
 | **Phase 3** | Lists, Tuples, Dictionaries, Sets | ✅ Completed | 🟢🟡 Easy–Intermediate |
 | **Phase 4** | Functions, OOP, File Handling | ✅ Completed | 🟡 Intermediate |
-| **Phase 5** | Logic Building, Comprehensions, Lambdas | 🕒 Up to Day 37 | 🟡 Intermediate |
+| **Phase 5** | Logic Building, Comprehensions, Lambdas | 🔄 In Progress | 🟡 Intermediate |
 | **Phase 6–8** | File Handling, OOP, Mini Projects | ⏳ Upcoming | 🟠 Advanced Beginner Projects |
 
 ---
