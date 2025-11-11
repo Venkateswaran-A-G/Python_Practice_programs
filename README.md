@@ -59,6 +59,7 @@ Currently solving **1 problem per day**, up to **Day 37 completed**.
 
 🧑‍💻 Author
 Venkateswaran A. G.
+
 CSE student passionate about Python, AI, and problem-solving.
 
 🔗 Connect on [LinkedIn](https://www.linkedin.com/in/venkateswaran-a-g-a2a18a339/recent-activity/all/?trk=public_profile-settings_see-all-posts)
