@@ -4,7 +4,7 @@
 
 A growing collection of **Python beginner to intermediate programs**, organized in progressive phases — from basic syntax to OOP, file handling, and mini projects.  
 
-Currently solving **1 problem per day**, up to **Day 37 completed**.  
+Currently solving **1 problem per day**, up to **Day 35 completed**.  
 (Consistency beats perfection.)
 
 ---
